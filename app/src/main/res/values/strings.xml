@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVMTask</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_fav_product">FavProduct</string>
+</resources>
