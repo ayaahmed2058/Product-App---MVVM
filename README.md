@@ -1,5 +1,9 @@
 # Products App – MVVM
 
+
+https://github.com/user-attachments/assets/b9093ca6-1f63-46b7-84ab-2eba32f9571c
+
+
 ## Overview
 This project is a **Products App** built using the **MVVM architecture**. It fetches a list of products from a remote API, displays them in a list, and allows users to mark products as favorites.
 
