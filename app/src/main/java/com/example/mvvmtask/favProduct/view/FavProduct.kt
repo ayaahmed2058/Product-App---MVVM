@@ -20,14 +20,12 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SnackbarDuration
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -44,7 +42,6 @@ import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
 import com.example.mvvmtask.R
 import com.example.mvvmtask.allProduct.view.LoadingIndicator
-import com.example.mvvmtask.allProduct.view.ProductItem
 import com.example.mvvmtask.model.db.ProductDataClass
 import com.example.mvvmtask.model.db.ProductDatabase
 import com.example.mvvmtask.model.db.ProductLocalDataSourceImp
